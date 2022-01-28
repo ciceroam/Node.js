@@ -1,15 +1,15 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/', function(req, res) {
-    res.render("user/list")
+router.get('/', (req, res) => {
+    res.render("user/listuser")
 })
 
-router.get('/new', function(req, res) {
-    res.render("user/form")
+router.get('/add', (req, res) => {
+    res.render("user/adduser")
 })
 
-router.post('/add', function(req, res) {
+router.post('/new', (req, res) => {
     res.send(req.body.name)
 })
 
