@@ -1,4 +1,9 @@
 # Node.js
-Node.js  Study Scripts
+Node projects that I developed for study and portfolio
 
-Projects in Node I develop for study
+-> UsersApp
+A simple CRUD using the following technologies:
+- Node.js (express, express-handlebars, body-parser, path, mongoose, ...)
+- HTML
+- CSS (Bootstrap)
+- MongoDB
